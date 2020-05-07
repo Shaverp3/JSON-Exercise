@@ -1,3 +1,10 @@
 h1 {
     text-align: center;
 }
+
+#searchBtn{
+    margin-left: 1em;
+    padding: .5em;
+    text-align: center;
+    justify-content: center;
+}
