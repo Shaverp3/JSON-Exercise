@@ -9,8 +9,20 @@
     <title>Restaurants</title>
   </head>
   <body>
+    <h1 class="list-group-item active"> Asian Restaurants</h1>
+  <section id="addRestaurant">
+    <form action="">
+      <label for="restUrl">Restaurant URL:<input type="text" placeholder="URL" id="restaurant-url"></label>
+      <label for="restAddress">Address:<input type="text" placeholder="Address" id="restaurant-address"></label>
+      <label for="restMenu">Menu:</label><input type="text" placeholder="menuURL" id="restaurant-menuURL">
+      <label for="restName">Restaurant Name:<input type="text" placeholder="Restaurant Name" id="restaurant-name"></label>
+      <label for="avgCost">Average Cost per 2:</label><input type="text" placeholder="Average Cost" id="average-cost">
+      <label for="rating">Average User Rating</label><input type="text" placeholder="User Rating" id="restaurant-rating">
+    </form>
+  </section>
+    <button id="newRestaurantBtn">Submit</button>
     <div>
-      <h1 class="list-group-item active"> Asian Restaurants</h1>
+      
       <div id="searchContainer" class="input-group" style="width: 35em;">
         <input type="text" class="form-control"  id="searchRestaurants" placeholder="Enter search text or leave blank for all Restaurants"/><button id="searchBtn"class="list-group" style="width: 10em;">Search</button>
       </div>
