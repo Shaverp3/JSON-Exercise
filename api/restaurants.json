@@ -1,33 +1,6 @@
 {
   "restaurants": [
     {
-      "id": 2,
-      "url": "http://cookoutmilkshakereviews.com/",
-      "menuURL": "http://cookoutmilkshakereviews.com/",
-      "name": "Smiling Elephant",
-      "averageUserRating": "4.6",
-      "averageCostPerTwo": 20,
-      "address": "1259 Sidco Drive"
-    },
-    {
-      "url": "cookout.com",
-      "menuURL": "www.cookoutmenu.com",
-      "name": "Cookout",
-      "averageUserRating": "5",
-      "averageCostPerTwo": "10",
-      "address": "1940 Lincoln",
-      "id": 3
-    },
-    {
-      "url": "Tudors.com",
-      "menuURL": "tudors.com/menu",
-      "name": "Tudors",
-      "averageUserRating": "4",
-      "averageCostPerTwo": "7.5",
-      "address": "Teays Valley",
-      "id": 5
-    },
-    {
       "url": "www.fireside.com",
       "menuURL": "www.fireside.com/menu",
       "name": "Fireside",
@@ -35,6 +8,15 @@
       "averageCostPerTwo": "12.00",
       "address": "Teays Valley",
       "id": 6
+    },
+    {
+      "url": "cookout.com",
+      "address": "1940 Lincoln",
+      "menuURL": "www.cookoutmenu.com",
+      "name": "Cookout",
+      "averageCostPerTwo": "5",
+      "averageUserRating": "5",
+      "id": 7
     }
   ]
 }
