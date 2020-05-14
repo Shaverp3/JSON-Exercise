@@ -1,0 +1,22 @@
+h1 {
+    text-align: center;
+}
+
+#searchBtn{
+    margin-left: 1em;
+    padding: .5em;
+    text-align: center;
+    justify-content: center;
+}
+
+#addRestaurant{
+    display:flexbox;
+    width: 25vw;
+    margin-bottom: 1em;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 2em;
+}
